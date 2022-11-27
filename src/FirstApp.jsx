@@ -18,8 +18,6 @@ export const FirstApp = ({title, subtitle, name}) =>{
             <p>probando props: {title}</p>
             <p>Hola soy, {subtitle}</p>
             <p>{name}</p>
-        
-            
             <code>{JSON.stringify(newMessage)}</code>
         </Fragment>
     )
